@@ -254,6 +254,10 @@ Issues and PRs welcome. Please run the validator before pushing:
 python scripts/validate.py
 ```
 
+Optional CI: a ready-to-use workflow is at `scripts/github-workflow-validate.yml`.
+Copy it to `.github/workflows/validate.yml` (requires the `workflow` scope on your
+GitHub token) to run validation on every push and pull request.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
