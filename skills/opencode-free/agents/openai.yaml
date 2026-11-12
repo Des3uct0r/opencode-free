@@ -1,0 +1,7 @@
+interface:
+  display_name: "OpenCode Free Models"
+  short_description: "Run OpenCode with free, keyless models and automatic failover"
+  default_prompt: "Help me use OpenCode with free models and set up automatic failover."
+
+policy:
+  allow_implicit_invocation: true
